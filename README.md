@@ -1,5 +1,4 @@
 # Angular Currency Directive
----
 This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/BobKnothe/autoNumeric) to format an input field as currency as a user types.
 
 ## Usage
@@ -10,8 +9,12 @@ This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/
 
 **HTML**
 ```
-<input type="text" ng-model="currency" angular-currency="options" />
+<input type="text" ng-model="currency" angular-currency="options" variable-options="true" />
 ```
+
+## Directive Attributes
+**angular-currency** - The options to be passed into AutoNumeric
+**variable-options** - If you will be using dynamic options this needs to be set to `true`, otherwise the directive will not watch for options updates and update AutoNumeric
 
 ## Options
 Angular Currency allows for all options supported by [AutoNumeric](https://github.com/BobKnothe/autoNumeric#default-settings--supported-options).
@@ -116,7 +119,6 @@ Angular Currency allows for all options supported by [AutoNumeric](https://githu
 -	no default value='' {anDefault: ''}
 -	value=1234.56 {anDefault: '1234.56'}
 
-****
 
 ## Additional Info
 **Unit Tests**

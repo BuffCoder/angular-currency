@@ -11,6 +11,10 @@ angular.module('bckrueger.angular-currency', [])
 	return {
 		'require': '?ngModel',
 		'restrict': 'A',
+		'scope': {
+			angularCurrency: '=',
+			variableOptions: '='
+		},
 		'compile': compile
 	};
 	
@@ -18,12 +22,18 @@ angular.module('bckrueger.angular-currency', [])
 		var isInputText = tElem.is('input:text');
 
 		return function(scope, elem, attrs, controller) {
-			elem.autoNumeric(scope.$eval(attrs.angularCurrency));
 			var updateElement = function (newVal) {
 				if ($.isNumeric(newVal)) {
 					elem.autoNumeric('set', newVal);
 				}
 			};
+			
+			elem.autoNumeric('init', scope.angularCurrency);
+			if (scope.variableOptions === true) {
+				scope.$watch('angularCurrency', function(newValue) {
+					elem.autoNumeric('update', newValue);
+				});
+			}
 
 			if (controller && isInputText) {
 				scope.$watch(tAttrs.ngModel, function () {
