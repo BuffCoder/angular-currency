@@ -1,0 +1,31 @@
+{
+  "name": "angular-currency",
+  "main": "angular-currency.js",
+  "version": "1.0.0",
+  "author": "Brandon Krueger <brandon.c.krueger@gmail.com>",
+  "description": "An angular directive that utilizes autoNumeric to format an input field as currency as a user types",
+  "keywords": [
+    "angular",
+    "autonumeric",
+    "currency",
+    "formatter"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "test": "karma start",
+    "lint": "eslint angular-currency.js"
+  },
+  "devDependencies": {
+    "angular": "^1.5.0-beta.0",
+    "angular-mocks": "^1.5.0-beta.0",
+    "chai": "^3.3.0",
+    "eslint": "^1.6.0",
+    "jquery": "^2.1.4",
+    "jshint": "^2.9.0",
+    "karma": "^0.13.11",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "sinon": "^1.17.1"
+  }
+}
