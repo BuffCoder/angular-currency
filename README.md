@@ -1,5 +1,6 @@
 # Angular Currency Directive
 This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/BobKnothe/autoNumeric) to format an input field as currency as a user types.
+[Plunker Example](http://plnkr.co/edit/oSMggMRTOUxX2RTOvkgh)
 
 ## Usage
 * 'bower install angular-currency'
