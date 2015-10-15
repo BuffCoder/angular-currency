@@ -1,5 +1,6 @@
 # Angular Currency Directive
 This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/BobKnothe/autoNumeric) to format an input field as currency as a user types.
+
 [Plunker Example](http://plnkr.co/edit/oSMggMRTOUxX2RTOvkgh)
 
 ## Usage
@@ -15,10 +16,12 @@ This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/
 
 ## Directive Attributes
 **angular-currency** - The options to be passed into AutoNumeric
+
 **variable-options** - If you will be using dynamic options this needs to be set to `true`, otherwise the directive will not watch for options updates and update AutoNumeric
 
 ## Options
 Angular Currency allows for all options supported by [AutoNumeric](https://github.com/BobKnothe/autoNumeric#default-settings--supported-options).
+
 **"aSep"** - controls the thousand separator character
 
 -	aSep: ','	comma (default)
