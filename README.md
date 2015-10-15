@@ -117,3 +117,10 @@ Angular Currency allows for all options supported by [AutoNumeric](https://githu
 -	value=1234.56 {anDefault: '1234.56'}
 
 ****
+
+## Additional Info
+**Unit Tests**
+Unit tests are done with [Karma](http://karma-runner.github.io/0.13/index.html) using [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/)
+
+**Code Quality**
+Code quality is ensured using [JSHint](http://jshint.com/)
