@@ -4,7 +4,7 @@
  * License: MIT
  */
 
-angular.module('brandonckrueger.angular-currency', [])
+angular.module('bckrueger.angular-currency', [])
 .directive('angularCurrency', [function () {
 	'use strict';
 	
