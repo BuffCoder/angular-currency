@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "author": "Brandon Krueger <brandon.c.krueger@gmail.com>",
   "description": "An angular directive that utilizes autoNumeric to format an input field as currency as a user types",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BrandonCKrueger/angular-currency.git"
+  },
   "keywords": [
     "angular",
     "autonumeric",
