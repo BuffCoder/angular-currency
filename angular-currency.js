@@ -1,10 +1,11 @@
 /*
- * angular-currenct v0.0.1
+ * angular-currency v1.0.6
  * (c) 2015-2016 Brandon Krueger <brandon.c.krueger@gmail.com>
  * License: MIT
  */
 
-angular.module('angular-currency', [])
+
+angular.module('bckrueger.angular-currency', [])
 .directive('angularCurrency', [function () {
 	'use strict';
 	
