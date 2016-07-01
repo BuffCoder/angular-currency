@@ -45,7 +45,7 @@ angular.module('bckrueger.angular-currency', [])
 					updateElement(controller.$viewValue);
 				};
 
-				elem.on('keypress', function () {
+				elem.on('change', function () {
 					scope.$apply(function () {
 						controller.$setViewValue(elem.autoNumeric('get'));
 					});
