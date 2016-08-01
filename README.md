@@ -10,7 +10,7 @@ This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/
 
 **Example**
 
-[Plunker](http://plnkr.co/edit/oSMggMRTOUxX2RTOvkgh)
+[Plunker](http://plnkr.co/edit/d8P1bY)
 
 ## Usage
 * 'bower install angular-currency'
