@@ -1,7 +1,7 @@
 # Angular Currency Directive
 **Current Version**
 
-v1.0.9 [NPM](https://www.npmjs.com/package/angular-currency)
+v1.0.11 [NPM](https://www.npmjs.com/package/angular-currency)
 
 **Description**
 
