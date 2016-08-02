@@ -2,7 +2,7 @@
 **Current Version**
 
 
-v1.0.7
+v1.0.8
 
 **Description**
 
@@ -13,9 +13,9 @@ This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/
 [Plunker](http://plnkr.co/edit/d8P1bY)
 
 ## Usage
-* 'bower install angular-currency'
-* Include `autoNumeric.js` which should be located at `bower_omponents/autoNumeric/autoNumeric.js'
-* Include 'angular-currency' provided by this component into your app
+* 'npm install angular-currency autonumeric --save'
+* Include `autoNumeric.js` which should be located at `node_modules/autonumeric/autoNumeric-min.js'
+* Include `angular-currency` provided by this component into your app
 * Add `bckrueger.angular-currency` as a module dependency to your app
 
 **HTML**
