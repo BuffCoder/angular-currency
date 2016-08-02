@@ -1,8 +1,7 @@
 # Angular Currency Directive
 **Current Version**
 
-
-v1.0.8
+v1.0.9 [NPM](https://www.npmjs.com/package/angular-currency)
 
 **Description**
 
@@ -13,7 +12,7 @@ This is an angular 1.x directive that utilizes [AutoNumeric](https://github.com/
 [Plunker](http://plnkr.co/edit/d8P1bY)
 
 ## Usage
-* 'npm install angular-currency autonumeric --save'
+* `npm install angular-currency autonumeric --save`
 * Include `autoNumeric.js` which should be located at `node_modules/autonumeric/autoNumeric-min.js'
 * Include `angular-currency` provided by this component into your app
 * Add `bckrueger.angular-currency` as a module dependency to your app
